@@ -1,0 +1,36 @@
+{
+  "name": "smartdocq-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.22.0",
+    "bcryptjs": "^2.4.3",
+    "chromadb": "^3.0.17",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.3.35",
+    "mammoth": "^1.11.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "nanoid": "^5.0.7",
+    "openai": "^5.23.2",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^2.16.105",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

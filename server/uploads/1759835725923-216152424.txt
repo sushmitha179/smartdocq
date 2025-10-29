@@ -1,0 +1,41 @@
+
+
+ 
+Week-V Milestone for Projects (Refer Project Plan) 
+1. Create endpoints for each functionality 
+Endpoints for all core functionalities have been created. 
+• User Authentication (Login, Register, Logout) 
+• File Upload & Retrieval 
+• Data Processing / Business Logic Execution 
+• Query / Search functionality 
+• Admin Operations 
+2. Implement business logic 
+Core business logic has been implemented according to the use cases. 
+• Input handling and processing are working as expected. 
+• Core algorithms and workflows have been integrated with the endpoints. 
+3. Handle input validation 
+Input validation has been added to all endpoints. 
+• Mandatory field checks 
+• Type validation (string, number, file format) 
+• Constraints (length, format, allowed values) 
+• Error messages for invalid input 
+4. Request parsing 
+ Implemented request parsing for: 
+• JSON requests 
+• Form-data (for file uploads) 
+• Query parameters in GET requests 
+• Proper error handling on invalid/malformed requests 
+
+5. Response formatting 
+ Standardized response format has been set: 
+• Success → { status: "success", data: {...}, message: "..." } 
+• Error → { status: "error", message: "..." } 
+• Consistent HTTP status codes (200, 400, 401, 404, 500) 
+ 
+Preprocessing 
+ Preprocessing phase has been completed. 
+• Collected raw data relevant to the research topic. 
+• Cleaned and normalized the dataset (removed noise, handled missing values). 
+• Applied tokenization / formatting as per requirements. 
+• Data is now ready for feature extraction and analysis. 
+ 

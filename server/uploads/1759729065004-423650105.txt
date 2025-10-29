@@ -1,0 +1,6 @@
+experiment,aim,input,output,metrix,normal model output
+then with trail 
+draw a table to differentiate both
+error (loss)
+
+changing the optimizer
